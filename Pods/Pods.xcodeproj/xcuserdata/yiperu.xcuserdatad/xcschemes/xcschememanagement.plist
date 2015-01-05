@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Borrar_HUB_Reachability0001-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Borrar_HUB_Reachability0001-Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Borrar_HUB_Reachability0001-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Borrar_HUB_Reachability0001.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>463939C1CDE85C4F3679413F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B917D69EE051D53136D62C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B9611D5D82994A66122B43F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D09685D294DCA8F4B05C9CEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

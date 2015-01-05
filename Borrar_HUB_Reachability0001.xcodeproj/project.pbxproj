@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E78A0631A5ADEBE00BAFF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A0621A5ADEBE00BAFF19 /* main.m */; };
+		1E78A0661A5ADEBE00BAFF19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A0651A5ADEBE00BAFF19 /* AppDelegate.m */; };
+		1E78A0691A5ADEBE00BAFF19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A0681A5ADEBE00BAFF19 /* ViewController.m */; };
+		1E78A06C1A5ADEBE00BAFF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A06A1A5ADEBE00BAFF19 /* Main.storyboard */; };
+		1E78A06E1A5ADEBE00BAFF19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A06D1A5ADEBE00BAFF19 /* Images.xcassets */; };
+		1E78A0711A5ADEBE00BAFF19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E78A06F1A5ADEBE00BAFF19 /* LaunchScreen.xib */; };
+		1E78A07D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A07C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m */; };
+		1E78A0891A5B016A00BAFF19 /* INGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A0881A5B016A00BAFF19 /* INGCar.m */; };
+		1E78A08C1A5B017C00BAFF19 /* INGCarObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */; };
+		C9CD7C1ADA2D42D22CEA7654 /* libPods-Borrar_HUB_Reachability0001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C707AB86A7EDC437F5F83A /* libPods-Borrar_HUB_Reachability0001.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E78A0771A5ADEBE00BAFF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E78A0551A5ADEBE00BAFF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E78A05C1A5ADEBE00BAFF19;
+			remoteInfo = Borrar_HUB_Reachability0001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E78A05D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borrar_HUB_Reachability0001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78A0611A5ADEBE00BAFF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78A0621A5ADEBE00BAFF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E78A0641A5ADEBE00BAFF19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E78A0651A5ADEBE00BAFF19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E78A0671A5ADEBE00BAFF19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E78A0681A5ADEBE00BAFF19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E78A06B1A5ADEBE00BAFF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E78A06D1A5ADEBE00BAFF19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E78A0701A5ADEBE00BAFF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E78A0761A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Borrar_HUB_Reachability0001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78A07B1A5ADEBE00BAFF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78A07C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Borrar_HUB_Reachability0001Tests.m; sourceTree = "<group>"; };
+		1E78A0871A5B016A00BAFF19 /* INGCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INGCar.h; sourceTree = "<group>"; };
+		1E78A0881A5B016A00BAFF19 /* INGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INGCar.m; sourceTree = "<group>"; };
+		1E78A08A1A5B017C00BAFF19 /* INGCarObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INGCarObserver.h; sourceTree = "<group>"; };
+		1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INGCarObserver.m; sourceTree = "<group>"; };
+		29E5B0FA01317B6B1D05555D /* Pods-Borrar_HUB_Reachability0001.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borrar_HUB_Reachability0001.release.xcconfig"; path = "Pods/Target Support Files/Pods-Borrar_HUB_Reachability0001/Pods-Borrar_HUB_Reachability0001.release.xcconfig"; sourceTree = "<group>"; };
+		41C707AB86A7EDC437F5F83A /* libPods-Borrar_HUB_Reachability0001.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Borrar_HUB_Reachability0001.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C902E6D38DDD4E8DC73999 /* Pods-Borrar_HUB_Reachability0001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borrar_HUB_Reachability0001.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Borrar_HUB_Reachability0001/Pods-Borrar_HUB_Reachability0001.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E78A05A1A5ADEBE00BAFF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CD7C1ADA2D42D22CEA7654 /* libPods-Borrar_HUB_Reachability0001.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E78A0731A5ADEBE00BAFF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E78A0541A5ADEBE00BAFF19 = {
+			isa = PBXGroup;
+			children = (
+				1E78A05F1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */,
+				1E78A0791A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests */,
+				1E78A05E1A5ADEBE00BAFF19 /* Products */,
+				595917F90A6585C89D6E8A85 /* Pods */,
+				D97485E7AF6C0E1C6CA04CE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E78A05E1A5ADEBE00BAFF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A05D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001.app */,
+				1E78A0761A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E78A05F1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A0861A5B015500BAFF19 /* kvo */,
+				1E78A0641A5ADEBE00BAFF19 /* AppDelegate.h */,
+				1E78A0651A5ADEBE00BAFF19 /* AppDelegate.m */,
+				1E78A0671A5ADEBE00BAFF19 /* ViewController.h */,
+				1E78A0681A5ADEBE00BAFF19 /* ViewController.m */,
+				1E78A06A1A5ADEBE00BAFF19 /* Main.storyboard */,
+				1E78A06D1A5ADEBE00BAFF19 /* Images.xcassets */,
+				1E78A06F1A5ADEBE00BAFF19 /* LaunchScreen.xib */,
+				1E78A0601A5ADEBE00BAFF19 /* Supporting Files */,
+			);
+			path = Borrar_HUB_Reachability0001;
+			sourceTree = "<group>";
+		};
+		1E78A0601A5ADEBE00BAFF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A0611A5ADEBE00BAFF19 /* Info.plist */,
+				1E78A0621A5ADEBE00BAFF19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E78A0791A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A07C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m */,
+				1E78A07A1A5ADEBE00BAFF19 /* Supporting Files */,
+			);
+			path = Borrar_HUB_Reachability0001Tests;
+			sourceTree = "<group>";
+		};
+		1E78A07A1A5ADEBE00BAFF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A07B1A5ADEBE00BAFF19 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E78A0861A5B015500BAFF19 /* kvo */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A0871A5B016A00BAFF19 /* INGCar.h */,
+				1E78A0881A5B016A00BAFF19 /* INGCar.m */,
+				1E78A08A1A5B017C00BAFF19 /* INGCarObserver.h */,
+				1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */,
+			);
+			name = kvo;
+			sourceTree = "<group>";
+		};
+		595917F90A6585C89D6E8A85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67C902E6D38DDD4E8DC73999 /* Pods-Borrar_HUB_Reachability0001.debug.xcconfig */,
+				29E5B0FA01317B6B1D05555D /* Pods-Borrar_HUB_Reachability0001.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D97485E7AF6C0E1C6CA04CE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C707AB86A7EDC437F5F83A /* libPods-Borrar_HUB_Reachability0001.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E78A05C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E78A0801A5ADEBE00BAFF19 /* Build configuration list for PBXNativeTarget "Borrar_HUB_Reachability0001" */;
+			buildPhases = (
+				14990928C4B1452B6DECD8C1 /* Check Pods Manifest.lock */,
+				1E78A0591A5ADEBE00BAFF19 /* Sources */,
+				1E78A05A1A5ADEBE00BAFF19 /* Frameworks */,
+				1E78A05B1A5ADEBE00BAFF19 /* Resources */,
+				A17E656AEE542E54F7F1121E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Borrar_HUB_Reachability0001;
+			productName = Borrar_HUB_Reachability0001;
+			productReference = 1E78A05D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E78A0751A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E78A0831A5ADEBE00BAFF19 /* Build configuration list for PBXNativeTarget "Borrar_HUB_Reachability0001Tests" */;
+			buildPhases = (
+				1E78A0721A5ADEBE00BAFF19 /* Sources */,
+				1E78A0731A5ADEBE00BAFF19 /* Frameworks */,
+				1E78A0741A5ADEBE00BAFF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E78A0781A5ADEBE00BAFF19 /* PBXTargetDependency */,
+			);
+			name = Borrar_HUB_Reachability0001Tests;
+			productName = Borrar_HUB_Reachability0001Tests;
+			productReference = 1E78A0761A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E78A0551A5ADEBE00BAFF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Apps4s;
+				TargetAttributes = {
+					1E78A05C1A5ADEBE00BAFF19 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1E78A0751A5ADEBE00BAFF19 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1E78A05C1A5ADEBE00BAFF19;
+					};
+				};
+			};
+			buildConfigurationList = 1E78A0581A5ADEBE00BAFF19 /* Build configuration list for PBXProject "Borrar_HUB_Reachability0001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E78A0541A5ADEBE00BAFF19;
+			productRefGroup = 1E78A05E1A5ADEBE00BAFF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E78A05C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */,
+				1E78A0751A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E78A05B1A5ADEBE00BAFF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E78A06C1A5ADEBE00BAFF19 /* Main.storyboard in Resources */,
+				1E78A0711A5ADEBE00BAFF19 /* LaunchScreen.xib in Resources */,
+				1E78A06E1A5ADEBE00BAFF19 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E78A0741A5ADEBE00BAFF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14990928C4B1452B6DECD8C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A17E656AEE542E54F7F1121E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Borrar_HUB_Reachability0001/Pods-Borrar_HUB_Reachability0001-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E78A0591A5ADEBE00BAFF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E78A0691A5ADEBE00BAFF19 /* ViewController.m in Sources */,
+				1E78A0661A5ADEBE00BAFF19 /* AppDelegate.m in Sources */,
+				1E78A0631A5ADEBE00BAFF19 /* main.m in Sources */,
+				1E78A0891A5B016A00BAFF19 /* INGCar.m in Sources */,
+				1E78A08C1A5B017C00BAFF19 /* INGCarObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E78A0721A5ADEBE00BAFF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E78A07D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E78A0781A5ADEBE00BAFF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E78A05C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */;
+			targetProxy = 1E78A0771A5ADEBE00BAFF19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E78A06A1A5ADEBE00BAFF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E78A06B1A5ADEBE00BAFF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E78A06F1A5ADEBE00BAFF19 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E78A0701A5ADEBE00BAFF19 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E78A07E1A5ADEBE00BAFF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E78A07F1A5ADEBE00BAFF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E78A0811A5ADEBE00BAFF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C902E6D38DDD4E8DC73999 /* Pods-Borrar_HUB_Reachability0001.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Borrar_HUB_Reachability0001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E78A0821A5ADEBE00BAFF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E5B0FA01317B6B1D05555D /* Pods-Borrar_HUB_Reachability0001.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Borrar_HUB_Reachability0001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E78A0841A5ADEBE00BAFF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Borrar_HUB_Reachability0001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Borrar_HUB_Reachability0001.app/Borrar_HUB_Reachability0001";
+			};
+			name = Debug;
+		};
+		1E78A0851A5ADEBE00BAFF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Borrar_HUB_Reachability0001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Borrar_HUB_Reachability0001.app/Borrar_HUB_Reachability0001";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E78A0581A5ADEBE00BAFF19 /* Build configuration list for PBXProject "Borrar_HUB_Reachability0001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E78A07E1A5ADEBE00BAFF19 /* Debug */,
+				1E78A07F1A5ADEBE00BAFF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E78A0801A5ADEBE00BAFF19 /* Build configuration list for PBXNativeTarget "Borrar_HUB_Reachability0001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E78A0811A5ADEBE00BAFF19 /* Debug */,
+				1E78A0821A5ADEBE00BAFF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E78A0831A5ADEBE00BAFF19 /* Build configuration list for PBXNativeTarget "Borrar_HUB_Reachability0001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E78A0841A5ADEBE00BAFF19 /* Debug */,
+				1E78A0851A5ADEBE00BAFF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E78A0551A5ADEBE00BAFF19 /* Project object */;
+}
