@@ -7,6 +7,7 @@ target 'Borrar_HUB_Reachability0001' do
     pod 'AFNetworking'
     pod 'Reachability'
     pod 'SVProgressHUD'
+    pod 'Mantle'
 end
 
 target 'Borrar_HUB_Reachability0001Tests' do

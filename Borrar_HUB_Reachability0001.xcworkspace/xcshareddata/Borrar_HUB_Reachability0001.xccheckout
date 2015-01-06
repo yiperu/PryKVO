@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1423C827-787B-4551-AD1A-C1E236D96794</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Borrar_HUB_Reachability0001</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0DD9684DE6F532218622D4C65A2FFD2ECAF85525</key>
+		<string>github.com:yiperu/PryKVO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Borrar_HUB_Reachability0001.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0DD9684DE6F532218622D4C65A2FFD2ECAF85525</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:yiperu/PryKVO.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0DD9684DE6F532218622D4C65A2FFD2ECAF85525</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0DD9684DE6F532218622D4C65A2FFD2ECAF85525</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Borrar_HUB_Reachability0001</string>
+		</dict>
+	</array>
+</dict>
+</plist>

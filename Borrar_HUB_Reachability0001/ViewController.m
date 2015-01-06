@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize contador;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -63,7 +65,33 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
     
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    
+    // Especificamos el nombre de la notificación que queremos observar y opcionalmente podemos
+    // indicar el objeto que deseamos contemplar.
+    // Si especificamos 'nil' como parámetro de objeto, recibiremos notificaciones de todos los elementos que envia
+    // dicha notificación.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveButtonHomeNotification:) name:@"ButtonHomeNotification" object:nil];
+    
+    
 }
+
+-(void)receiveButtonHomeNotification:(NSNotification*) notification
+{
+    contador++;
+    NSLog(@"Valor de contador es: %i", contador);
+}
+
+
+
+-(void)dealloc{
+    // Eliminarnos como observador
+    [[NSNotificationCenter defaultCenter] removeObserver:self];	    
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

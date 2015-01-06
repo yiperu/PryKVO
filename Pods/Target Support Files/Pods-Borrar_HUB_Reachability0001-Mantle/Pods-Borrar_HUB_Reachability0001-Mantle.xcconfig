@@ -1,0 +1,1 @@
+PODS_BORRAR_HUB_REACHABILITY_____MANTLE_OTHER_LDFLAGS = -framework "Foundation"

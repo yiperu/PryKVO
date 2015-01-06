@@ -16,6 +16,7 @@
 		1E78A07D1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A07C1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001Tests.m */; };
 		1E78A0891A5B016A00BAFF19 /* INGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A0881A5B016A00BAFF19 /* INGCar.m */; };
 		1E78A08C1A5B017C00BAFF19 /* INGCarObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */; };
+		1E78A0901A5B10C200BAFF19 /* FichaProductoHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E78A08F1A5B10C200BAFF19 /* FichaProductoHTTP.m */; };
 		C9CD7C1ADA2D42D22CEA7654 /* libPods-Borrar_HUB_Reachability0001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C707AB86A7EDC437F5F83A /* libPods-Borrar_HUB_Reachability0001.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		1E78A0881A5B016A00BAFF19 /* INGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INGCar.m; sourceTree = "<group>"; };
 		1E78A08A1A5B017C00BAFF19 /* INGCarObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INGCarObserver.h; sourceTree = "<group>"; };
 		1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INGCarObserver.m; sourceTree = "<group>"; };
+		1E78A08E1A5B10C200BAFF19 /* FichaProductoHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FichaProductoHTTP.h; sourceTree = "<group>"; };
+		1E78A08F1A5B10C200BAFF19 /* FichaProductoHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FichaProductoHTTP.m; sourceTree = "<group>"; };
 		29E5B0FA01317B6B1D05555D /* Pods-Borrar_HUB_Reachability0001.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borrar_HUB_Reachability0001.release.xcconfig"; path = "Pods/Target Support Files/Pods-Borrar_HUB_Reachability0001/Pods-Borrar_HUB_Reachability0001.release.xcconfig"; sourceTree = "<group>"; };
 		41C707AB86A7EDC437F5F83A /* libPods-Borrar_HUB_Reachability0001.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Borrar_HUB_Reachability0001.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C902E6D38DDD4E8DC73999 /* Pods-Borrar_HUB_Reachability0001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Borrar_HUB_Reachability0001.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Borrar_HUB_Reachability0001/Pods-Borrar_HUB_Reachability0001.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +97,7 @@
 		1E78A05F1A5ADEBE00BAFF19 /* Borrar_HUB_Reachability0001 */ = {
 			isa = PBXGroup;
 			children = (
+				1E78A08D1A5B0FEE00BAFF19 /* Servicios */,
 				1E78A0861A5B015500BAFF19 /* kvo */,
 				1E78A0641A5ADEBE00BAFF19 /* AppDelegate.h */,
 				1E78A0651A5ADEBE00BAFF19 /* AppDelegate.m */,
@@ -142,6 +146,15 @@
 				1E78A08B1A5B017C00BAFF19 /* INGCarObserver.m */,
 			);
 			name = kvo;
+			sourceTree = "<group>";
+		};
+		1E78A08D1A5B0FEE00BAFF19 /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+				1E78A08E1A5B10C200BAFF19 /* FichaProductoHTTP.h */,
+				1E78A08F1A5B10C200BAFF19 /* FichaProductoHTTP.m */,
+			);
+			name = Servicios;
 			sourceTree = "<group>";
 		};
 		595917F90A6585C89D6E8A85 /* Pods */ = {
@@ -297,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E78A0691A5ADEBE00BAFF19 /* ViewController.m in Sources */,
+				1E78A0901A5B10C200BAFF19 /* FichaProductoHTTP.m in Sources */,
 				1E78A0661A5ADEBE00BAFF19 /* AppDelegate.m in Sources */,
 				1E78A0631A5ADEBE00BAFF19 /* main.m in Sources */,
 				1E78A0891A5B016A00BAFF19 /* INGCar.m in Sources */,

@@ -16,6 +16,8 @@
 
 @interface ViewController : UIViewController
 
+// Variable de instancia que contará el número de veces que el usuario sale de nuestra app
+@property int contador;
 
 @end
 
